@@ -1,0 +1,154 @@
+{
+  "@@locale": "es",
+  "settings": "Ajustes",
+  "back": "Volver",
+  "today": "Hoy",
+  "tomorrow": "Mañana",
+  "nowLabel": "Ahora ({p1})",
+  "nowTag": "Ahora",
+  "levelLow": "Barata",
+  "levelMedium": "Media",
+  "levelHigh": "Cara",
+  "cheapest": "Mínimo",
+  "average": "Media",
+  "mostExpensive": "Máximo",
+  "bestWindowTitle": "Mejor hora para lavadora, lavavajillas…",
+  "bestWindowAverage": "{p1} de media",
+  "bestWindowSaving": "Un {p1} % más barato que la media del día",
+  "bestWindowNone": "Hoy ya no quedan tantas horas seguidas. Mira los precios de mañana.",
+  "allHours": "Todas las horas",
+  "chartDescription": "Gráfico del precio de la luz por horas",
+  "dataSource": "Precio PVPC con impuestos excluidos. Datos: Red Eléctrica (REData).",
+  "tomorrowNotPublished": "Los precios de mañana se publican cada día hacia las 20:15.",
+  "tomorrowWillNotify": "Te avisaremos en cuanto salgan.",
+  "notifyMe": "Avísame cuando salgan",
+  "errorNetwork": "No hay conexión. Comprueba tu internet e inténtalo de nuevo.",
+  "errorServer": "No se han podido cargar los precios. Inténtalo dentro de un rato.",
+  "retry": "Reintentar",
+  "zoneTitle": "Zona",
+  "zonePeninsula": "Península",
+  "zoneCanarias": "Canarias",
+  "zoneBaleares": "Baleares",
+  "zoneCeuta": "Ceuta",
+  "zoneMelilla": "Melilla",
+  "notificationsTitle": "Avisos",
+  "notifyTomorrow": "Precios de mañana",
+  "notifyTomorrowDetail": "Cada tarde, a las 20:30, un aviso para consultar las horas más baratas del día siguiente.",
+  "channelTomorrowName": "Precios de mañana",
+  "channelTomorrowDescription": "Aviso diario cuando se publican los precios del día siguiente",
+  "notificationTomorrowTitle": "Ya están los precios de mañana",
+  "privacyOptions": "Opciones de privacidad de anuncios",
+  "aboutTitle": "Acerca de",
+  "aboutText": "Precio voluntario para el pequeño consumidor (PVPC), publicado por Red Eléctrica. Solo es tu precio si tienes una tarifa regulada PVPC; en el mercado libre depende de tu contrato.",
+  "sourceTitle": "Fuentes oficiales",
+  "source1": "Precio PVPC en e·sios (Red Eléctrica)",
+  "source2": "API REData de Red Eléctrica",
+  "aboutDisclaimer": "Luz Barata es una app independiente y no está vinculada a Red Eléctrica, a ningún organismo público ni a ninguna comercializadora.",
+  "version": "Versión {p1}",
+  "applianceTitle": "¿Cuánto me cuesta poner…?",
+  "applianceLocked": "Calcula lo que cuesta cada electrodoméstico ahora y en la mejor hora del día.",
+  "applianceCostNow": "Si lo pones ahora: {p1}",
+  "applianceCostBest": "En la mejor hora: {p1} ({p2})",
+  "applianceSaving": "Te ahorras {p1} por puesta",
+  "applianceNote": "Estimación con un consumo típico y el precio PVPC sin impuestos.",
+  "applianceWashingMachine": "Lavadora",
+  "applianceDishwasher": "Lavavajillas",
+  "applianceDryer": "Secadora",
+  "applianceOven": "Horno",
+  "applianceAirConditioning": "Aire acondicionado",
+  "applianceElectricCar": "Coche eléctrico",
+  "premiumFeatureAppliances": "Calculadora de coste por electrodoméstico",
+  "premiumSettingsText": "Quita los anuncios y desbloquea la calculadora de electrodomésticos.",
+  "removeAds": "Quitar anuncios",
+  "hoursShort": "{p1, plural, =1{{p1} h} other{{p1} h}}",
+  "premiumTitle": "Premium",
+  "premiumBack": "Volver",
+  "premiumHeadline": "Pásate a Premium",
+  "premiumActive": "Ya eres Premium. ¡Gracias por tu apoyo!",
+  "premiumBenefitNoAds": "Sin anuncios",
+  "premiumMonthly": "{p1} al mes",
+  "premiumLifetime": "{p1}, pago único para siempre",
+  "premiumLoading": "Cargando precio…",
+  "premiumStoreUnavailable": "No se puede conectar con el App Store. Inténtalo más tarde.",
+  "premiumRestore": "Restaurar compras",
+  "premiumLegal": "La suscripción se renueva cada mes y puedes cancelarla cuando quieras en el App Store.",
+  "lockedWatchAd": "Ver un anuncio y desbloquear 24 h",
+  "lockedGoPremium": "Hazte Premium",
+  "rewardedUnavailable": "No hay ningún anuncio disponible ahora mismo. Prueba dentro de un rato.",
+  "@nowLabel": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@bestWindowAverage": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@bestWindowSaving": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@applianceCostNow": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@applianceCostBest": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      },
+      "p2": {
+        "type": "String"
+      }
+    }
+  },
+  "@applianceSaving": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@hoursShort": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@premiumMonthly": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@premiumLifetime": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyPolicy": "Política de privacidad",
+  "termsOfUse": "Términos de uso",
+  "notificationTomorrowReminder": "Toca para ver la hora más barata y la más cara."
+}
